@@ -1,0 +1,205 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+.top-container{
+    background-color: blue;
+    border-style: solid;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.mid-container{
+    background-color: red;
+    border: 20px solid black;
+    margin-left: 260px;
+}
+
+.low-container{
+    background-color: green;
+    border: 10px solid black;
+    margin-left: 500px;
+}
+
+.box1{
+    width: 50px;
+    height: 200px;
+    border: 10px solid black;   
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+}
+.box3{
+    width: 50px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+}
+.box4{
+    width: 150px;
+    height: 200px;
+    border: 10px solid black;
+    margin-left: 60px;  
+    margin-top: -340px; 
+}
+.box5{
+    width: 150px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    background-color: #2C3CA3;
+    margin-left: 60px; 
+}
+.box6{
+    width: 150px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 60px; 
+}
+.box7{
+    width: 35px;
+    height: 35px;
+    border: 10px solid black; 
+    margin-top: -340px;
+    margin-left: 220px;
+}
+.box8{
+    width: 35px;
+    height: 155px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 220px;
+}
+.box9{
+    width: 35px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 220px;
+}
+.box10{
+    width: 35px;
+    height: 50px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 220px;
+}
+.box11{
+    width: 150px;
+    height: 35px;
+    border: 10px solid black;
+    margin-left: 265px;  
+    margin-top: -340px; 
+}
+.box12{
+    width: 150px;
+    height: 155px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 265px;
+    background-color: #E43B41;
+}
+.box13{
+    width: 150px;
+    height: 110px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 265px;
+}
+.box14{
+    width: 150px;
+    height: 35px;
+    border: 10px solid black;
+    margin-left: 425px;  
+    margin-top: -340px;
+    background-color: #FAD54A; 
+}
+.box15{
+    width: 150px;
+    height: 155px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 425px;
+}
+.box16{
+    width: 150px;
+    height: 110px;
+    border: 10px solid black; 
+    margin-top: -10px;
+    margin-left: 425px;
+}
+
+.flagvertical1{
+    background-color: red; 
+    position: relative;
+}
+.flagvertical2{
+    background-color: blue; 
+    position: relative;
+}
+.flagvertical3{
+    background-color: yellow; 
+    position: relative;
+    
+}
+.flaghorizontal1{
+    background-color: blue; 
+    position: relative; 
+    margin-top: -600px;
+    margin-left: 250px;
+}
+.flaghorizontal2{
+    background-color: yellow;
+    position: relative;
+    margin-left: 450px;
+    margin-top:-200px;
+}
+.flaghorizontal3{
+    background-color: red; 
+    position: relative;
+    margin-left: 650px;
+    margin-top:-200px;
+    margin-bottom: 410px;
+}
+
+
+
+.verticalflag1{
+    background-color: red; 
+    position: absolute ;
+}
+.verticalflag2{
+    background-color: blue; 
+    position: absolute;
+    margin-top: 200px;
+}
+.verticalflag3{
+    background-color: yellow; 
+    position: absolute;
+    margin-top: 400px;
+}
+
+.mixedflag1{
+    background-color: yellow;
+    position: absolute; 
+    margin-left: 250px;
+}
+.mixedflag2{
+    background-color: blue; 
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+    
+}
+.mixedflag3{
+    background-color: red; 
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 400px;
+    
+}
