@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Find Next Prime Number</title>
+
+    <script type="text/javascript">
+        function checkPrime() {
+            var id = document.getElementById("num");
+            var number = parseInt (id.value); //same as document.getElementById("num").value
+            var maxNum = parseInt(1299827);
+            if(number < maxNum && !isNaN(number)) {                       //check the values
+                for(var i = number+1; i< maxNum; i++) {
+                    //TODO: check if the current number is a prime or not
+                    // If it is, then return it
+
+                    if (isPrime(i)){
+                        //window.alert(i + " is the next prime number.");
+                        //var span= document.getElementById("result");
+                        //span.innerHTML= "The next prime number after " + number + " is" + i;
+                        var item=document.createElement("li")
+                        item.innerHTML = "The next prime number after " + number + " is " + i;
+                        document.getElementById("result").appendChild(item);
+                        //span.style = "font-weight: bold";
+                        break; //finishes the function
+                        //same code as 
+                        //  document.getElementById("result").innerHTML= i + " is the next prime."
+                    }
+                    
+                }
+            } else {
+                window.alert("Please Enter Number Below 1299827 or Enter A Valid Integer");
+                id.value = "";
+            }
+        }
+        function isPrime(num) {
+            for(var i = 2; i < num; i++ ) {
+                if(num % i === 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+<form id="form1" runat="server">
+    <div>
+        <input type="text" id="num" />
+        <button id="btn" onclick="checkPrime();return false">
+            Click To Get Next Prime Number
+        </button>
+    </div>
+    <!--<span id="result"></span>       inline display-->
+    <ul id="result">
+
+    </ul>
+</form>
+</body>
+</html>
