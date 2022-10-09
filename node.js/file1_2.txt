@@ -1,0 +1,1 @@
+Hey! this is file1.txt from the second exercise.
